@@ -10,4 +10,9 @@ public class RotasController {
     public String administracao(Model model) {
         return "gerenciadortarefas/gerenciador-tarefas";
     }
+
+    @GetMapping("/tarefas")
+    public String tarefas(Model model) {
+        return "gerenciadortarefas/tarefas";
+    }
 }

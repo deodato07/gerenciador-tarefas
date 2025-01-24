@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Tarefas</title>
+  </head>
+  <body>
+    <h1>Minhas Tarefas</h1>
+    <a href="/logout">Sair</a>
+    <table>
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Descrição</th>
+          <th>Categoria</th>
+          <th>Status</th>
+          <th>Prazo</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Exemplo estático, substituir com dados dinâmicos -->
+        <tr>
+          <td>Tarefa 1</td>
+          <td>Descrição da tarefa 1</td>
+          <td>Desenvolvimento</td>
+          <td>Em andamento</td>
+          <td>2025-01-25</td>
+          <td><button>Editar</button> <button>Excluir</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
